@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--<< Header Area >>-->
+    
+<head>
+        <!-- ========== Meta Tags ========== -->
+        <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="pixel-drop" />
+    <meta
+      name="description"
+      content="WOW Logistics Management"
+    />
+    <!-- ======== Page title ============ -->
+    <title>WOW Logistics Management</title>
+        <!--<< Favcion >>-->
+        <link rel="shortcut icon" href="assets/img/favicon.svg">
+        <!--<< Bootstrap min.css >>-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--<< All Min Css >>-->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <!--<< Animate.css >>-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!--<< Ui Range Slider Css >>-->
+        <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+        <!--<< Magnific Popup.css >>-->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!--<< MeanMenu.css >>-->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!--<< Swiper Bundle.css >>-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--<< Nice Select.css >>-->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <!--<< Color.css >>-->
+        <link rel="stylesheet" href="assets/css/color.css">
+        <!--<< Main.css >>-->
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+        
+        <!-- Preloader Start -->
+    <div id="preloader" class="preloader">
+        <div class="animation-preloader">
+          <div class="spinner"></div>
+          <div class="txt-loading">
+            <span data-text-preloader="W" class="letters-loading"> W </span>
+            <span data-text-preloader="O" class="letters-loading"> O </span>
+            <span data-text-preloader="W" class="letters-loading"> W </span>
+          </div>
+          <p class="text-center">Loading</p>
+        </div>
+        <div class="loader">
+          <div class="row">
+            <div class="col-3 loader-section section-left">
+              <div class="bg"></div>
+            </div>
+            <div class="col-3 loader-section section-left">
+              <div class="bg"></div>
+            </div>
+            <div class="col-3 loader-section section-right">
+              <div class="bg"></div>
+            </div>
+            <div class="col-3 loader-section section-right">
+              <div class="bg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!--<< Mouse Cursor Start >>-->
+      <div class="mouse-cursor cursor-outer"></div>
+      <div class="mouse-cursor cursor-inner"></div>
+  
+      <!-- Offcanvas Area Start -->
+      <div class="fix-area">
+          <div class="offcanvas__info">
+              <div class="offcanvas__wrapper">
+                  <div class="offcanvas__content">
+                      <div class="jik mb-5 d-flex justify-content-between align-items-center">
+                          <div class="offcanvas__logo">
+                              <a href="index.html">
+                                  <img src="assets/img/logo/logo-1.png" alt="WoW Plus Logo" />
+                              </a>
+                          </div>
+                          <div class="offcanvas__close">
+                              <button>
+                                  <i class="fas fa-times"></i>
+                              </button>
+                          </div>
+                      </div>
+                      <p class="text d-none d-lg-block">
+                          WoW Plus is a premier logistics company specializing in Sprinter Cargo Van transportation. We offer reliable, efficient, and on-demand delivery solutions to businesses and individuals, ensuring seamless cargo transport with a customer-centric approach.
+                      </p>
+                      <div class="mobile-menu fix mb-3"></div>
+                      <div class="offcanvas__contact">
+                          <h4>Contact Info</h4>
+                          <ul>
+                              <li class="d-flex align-items-center">
+                                  <div class="offcanvas__contact-icon">
+                                      <i class="fal fa-map-marker-alt"></i>
+                                  </div>
+                                  <div class="offcanvas__contact-text">
+                                      <a target="_blank" href="#">
+                                          14050 SW 84th ST, Ste 204, Miami, Florida 33183, USA
+                                      </a>
+                                  </div>
+                              </li>
+                              <li class="d-flex align-items-center">
+                                  <div class="offcanvas__contact-icon mr-15">
+                                      <i class="fal fa-envelope"></i>
+                                  </div>
+                                  <div class="offcanvas__contact-text">
+                                      <a href="mailto:info@wowplus.com">
+                                          <span class="mailto:info@wowplus.com">info@wowplus.com</span>
+                                      </a>
+                                  </div>
+                              </li>
+                              <li class="d-flex align-items-center">
+                                  <div class="offcanvas__contact-icon mr-15">
+                                      <i class="fal fa-clock"></i>
+                                  </div>
+                                  <div class="offcanvas__contact-text">
+                                      <a target="_blank" href="#">Monday - Friday, 9:00 AM - 5:00 PM</a>
+                                  </div>
+                              </li>
+                              <li class="d-flex align-items-center">
+                                  <div class="offcanvas__contact-icon mr-15">
+                                      <i class="far fa-phone"></i>
+                                  </div>
+                                  <div class="offcanvas__contact-text">
+                                      <a href="tel:+18449697587">+1 (844) WOW PLUS</a>
+                                      <br>
+                                      <a href="tel:+18449697587">+1 (844) 969-7587</a>
+                                  </div>
+                              </li>
+                          </ul>
+                          <div class="header-button mt-4">
+                              <a href="contact-us.html" class="btn-read text-center">
+                                  <span>Become a Customer<i class="fa-solid fa-arrow-right-long"></i></span>
+                              </a>
+                          </div>
+                          <div class="social-icon d-flex align-items-center">
+                              <a href="#"><i class="fab fa-facebook-f"></i></a>
+                              <a href="#"><i class="fab fa-twitter"></i></a>
+                              <a href="#"><i class="fab fa-youtube"></i></a>
+                              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="offcanvas__overlay"></div>
+  
+      <!-- Back To Top Start -->
+      <button id="back-top" class="back-to-top">
+        <i class="fa-regular fa-arrow-up"></i>
+      </button>
+      <!-- Header Section Start -->
+      <header>
+        <div class="header-2 header-3" id="header-sticky">
+          <div class="container-fluid">
+            <div class="row align-items-center">
+              <div class="col-lg-2">
+                <div class="logo">
+                  <a href="index.html" class="header-logo">
+                    <img src="assets/img/logo/logo-1.png" alt="logo-img" />
+                  </a>
+                  <a href="index.html" class="header-logo-2">
+                    <img src="assets/img/logo/logo-white.png" alt="logo-img" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="mean__menu-wrapper">
+                  <div class="main-menu">
+                    <nav id="mobile-menu">
+                      <ul>
+                        <li class="has-dropdown active menu-thumb">
+                          <a href="index.html">
+                            Home
+                          </a>
+                        </li>
+                        <li class="has-dropdown">
+                          <a href="about-us.html"> About us </a>
+                        </li>
+                        <li>
+                          <a href="service-details.html">
+                            Services
+                          </a>
+                        </li>
+                        <li>
+                          <a href="faq.html">Faq’s</a>
+                        </li>
+                        <li>
+                          <a href="contact-us.html">Contact Us</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="header-right d-flex justify-content-end">
+                  <div class="header-icon d-flex">
+  
+                    <button class="offcanvas-bar sidebar__toggle">
+                      <i class="fa-sharp fa-regular fa-bars"></i>
+                    </button>
+                  </div>
+                  <div class="header-btn">
+                    <div class="btn-box">
+                      <a class="btn-read" href="#"
+                        >Become a Customer
+                        <!-- <i class="fa-regular fa-arrow-right-long"></i> -->
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+        <main>
+        <!-- Breadcrimb start -->
+        <section class="breadcrumb-area">
+            <div class="breadcrumb-style-1 mb-120" data-background="assets/img/bg/breadcrumb.png">
+                <img class="shape" src="assets/img/shapes/breadcrumb.png" alt="img">
+                <div class="container">
+                    <h1 class="breadcrumb-title">About Us</h1>
+                    <div class="breadcrumb-list">
+                        <span><a href="index.html">Home</a></span>
+                        <span><i class="fa-regular fa-angles-right"></i></span>
+                        <span class="active"><a href="#">About Us</a></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section Start -->
+        <section class="about-area fix">
+            <div class="about-style-3" data-background="assets/img/bg/about-style-3-bg.png">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="about-thumb">
+                                <div class="info">
+                                    <div class="p-relative">
+                                        <span class="count">10</span>
+                                        <span>+ Years of Excellence</span>
+                                    </div>
+                                    <img src="assets/img/shapes/home03-about.png" alt="img" />
+                                </div>
+                                <img src="assets/img/thumb/home03-about.jpg" alt="img" data-wow-duration="1.5s" data-wow-delay="0.3s" />
+                                <img class="shape-image float-bob-y" src="assets/img/thumb/home03-about-2.png" alt="img" />
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="content">
+                                <div class="about-title">
+                                    <span class="title-sm split_chars">
+                                        <img src="assets/img/icon/icon-1-car.svg" alt="icon" />About WoW Plus
+                                    </span>
+                                    <h2 class="section__title__48 title_anim">
+                                        Reliable & Innovative Logistics for Seamless Delivery
+                                    </h2>
+                                </div>
+                                <p>
+                                    At <strong>WoW Plus</strong>, we specialize in providing fast, secure, and efficient <strong>transportation and logistics</strong> solutions using our fleet of <strong>Sprinter Cargo Vans</strong>. Whether it's same-day deliveries, business-to-business logistics, or nationwide distribution, we ensure <strong>on-time and damage-free shipments</strong>.
+                                </p>
+                                <p>
+                                    With a strong focus on <strong>customer satisfaction, safety, and operational efficiency</strong>, we work closely with businesses across industries to optimize their supply chain and meet the growing demand for reliable logistics services.
+                                </p>
+                                <div class="subtitle">
+                                    <span><i class="fa-sharp fa-light fa-arrow-right"></i> Dedicated to <strong>timely and secure</strong> deliveries</span>
+                                    <span><i class="fa-sharp fa-light fa-arrow-right"></i> Scalable solutions for businesses of all sizes</span>
+                                    <span><i class="fa-sharp fa-light fa-arrow-right"></i> Trusted by <strong>leading companies across the USA</strong></span>
+                                </div>
+                                <h4 class="title">
+                                    Driving logistics <strong>forward</strong> since <span>2014</span>
+                                </h4>
+                                <div class="info-box d-flex align-items-center">
+                                    <div class="btn-box">
+                                        <a class="btn-read" href="contact-us.html">
+                                            Become a Customer <i class="fa-regular fa-arrow-right-long"></i>
+                                        </a>
+                                    </div>
+                                    <div class="designation">
+                                        <img src="assets/img/shapes/home02-about-03.png" alt="img" /><br />
+                                        <span>WoW Plus, CEO</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand Slider Start -->
+        <div class="brand-area fix padding-bottom">
+            <div class="container">
+                <div class="brandslider-wrap brand-slider-style-1">
+                    <div class="swiper about-slider-active">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide ds-inline">
+                            <div class="brand-img">
+                                <img src="assets/img/brand-slider/brand-1.png" alt="img">
+                        </div>
+                        </div>
+                        <div class="swiper-slide ds-inline">
+                            <div class="brand-img">
+                                <img src="assets/img/brand-slider/brand-2.png" alt="img">
+                        </div>
+                        </div>
+                        <div class="swiper-slide ds-inline">
+                            <div class="brand-img">
+                                <img src="assets/img/brand-slider/brand-3.png" alt="img">
+                        </div>
+                        </div>
+                        <div class="swiper-slide ds-inline">
+                            <div class="brand-img">
+                                <img src="assets/img/brand-slider/brand-4.png" alt="img">
+                        </div>
+                        </div>
+                        <div class="swiper-slide ds-inline">
+                            <div class="brand-img">
+                                <img src="assets/img/brand-slider/brand-5.png" alt="img">
+                        </div>
+                        </div>
+                        <div class="swiper-slide ds-inline">
+                            <div class="brand-img">
+                                <img src="assets/img/brand-slider/brand-1.png" alt="img">
+                        </div>
+                        </div>
+                        <div class="swiper-slide ds-inline">
+                            <div class="brand-img">
+                                <img src="assets/img/brand-slider/brand-2.png" alt="img">
+                        </div>
+                        </div>
+                        <div class="swiper-slide ds-inline">
+                            <div class="brand-img">
+                                <img src="assets/img/brand-slider/brand-3.png" alt="img">
+                        </div>
+                        </div>
+                        <div class="swiper-slide ds-inline">
+                            <div class="brand-img">
+                                <img src="assets/img/brand-slider/brand-4.png" alt="img">
+                        </div>
+                        </div>
+                        <div class="swiper-slide ds-inline">
+                            <div class="brand-img">
+                                <img src="assets/img/brand-slider/brand-5.png" alt="img">
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Work Section Start -->
+        <section class="work-area fix">
+            <div class="work-wrapper work-style-2 section-padding">
+                <img src="assets/img/shapes/plane-up.png" alt="img" class="shape float-bob-y">
+                <div class="container">
+                    <div class="row align-items-end">
+                        <div class="col-lg-7">
+                            <div class="work-title">
+                                <div class="title">
+                                    <span class="title-sm split_chars"><img src="assets/img/icon/icon-1-car.svg" alt="icon">Our Work Process</span>
+                                    <h2 class="section__title__48-white title_anim">We Always Follow the best
+                                        Ways of Logistics.</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="work-content">
+                                <p>There are many variations of passages of Lom Ipsum available, but the majority have suff alteration in some form, by injected humour, or randomised </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-4">
+                            <div class="items hover-color">
+                                <h3 class="title"><span>01</span> <br> Select <br>  Services</h3>
+                                <div class="icon">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.936" fill-rule="evenodd" clip-rule="evenodd" d="M23.848 4.04297C33.8406 4.33801 41.0867 8.90832 45.5863 17.7539C46.2187 19.241 46.7461 20.7645 47.1683 22.3242C51.1398 24.5589 55.0656 26.8635 58.9456 29.2383C59.0238 34.1602 59.0238 39.082 58.9456 44.0039C54.8853 46.4998 50.7642 48.9021 46.5824 51.2109C46.1192 51.3178 45.6895 51.2396 45.2933 50.9766C42.8419 49.502 40.3615 48.0763 37.8519 46.6992C30.2623 51.6064 22.3131 52.251 14.0042 48.6328C6.76341 44.8657 2.447 38.9477 1.05503 30.8789C0.0609091 20.8576 3.71325 13.0646 12.0121 7.5C15.6751 5.33448 19.6203 4.18214 23.848 4.04297ZM23.4964 6.03516C28.5646 5.95379 33.0957 7.43817 37.0902 10.4883C35.9128 10.9011 34.8191 11.4675 33.8089 12.1875C33.0753 13.0404 32.7238 14.0365 32.7542 15.1758C32.7643 16.0175 32.9011 16.8379 33.1644 17.6367C33.419 18.1269 33.8292 18.3807 34.3949 18.3984C36.12 18.4356 37.8388 18.3379 39.5511 18.1055C40.4599 18.2448 40.6161 18.6745 40.0199 19.3945C38.0503 19.6001 36.0971 19.5023 34.1605 19.1016C32.7712 18.9472 31.7751 19.5137 31.1722 20.8008C31.0704 21.0446 31.0118 21.2985 30.9964 21.5625C31.0659 21.8565 31.0854 22.1495 31.055 22.4414C30.3583 23.4134 29.8116 24.468 29.4144 25.6055C29.1191 27.1417 29.5684 28.4112 30.7621 29.4141C31.4545 30.0728 32.2748 30.4829 33.223 30.6445C33.3206 35.019 33.3792 39.394 33.3988 43.7695C33.5303 44.0184 33.706 44.2332 33.9261 44.4141C34.5704 44.7557 35.1955 45.1267 35.8011 45.5273C30.2866 48.9853 24.3881 49.8251 18.1058 48.0469C9.33456 45.0169 4.27596 38.9036 2.93003 29.707C2.63571 26.7103 2.9482 23.7806 3.86753 20.918C5.49489 23.9906 7.85816 26.3148 10.9574 27.8906C11.5907 28.3665 12.0399 28.972 12.305 29.707C12.4243 30.68 12.5025 31.6566 12.5394 32.6367C12.6151 34.5455 13.494 35.9321 15.1761 36.7969C16.0247 37.5361 16.591 38.454 16.8753 39.5508C17.2145 41.0777 17.566 42.6012 17.93 44.1211C18.2203 45.3471 18.8258 46.3822 19.7464 47.2266C20.9669 47.8323 22.0021 47.5785 22.8519 46.4648C23.7119 44.9389 24.2198 43.2983 24.3753 41.543C24.5386 41.0993 24.7338 40.6697 24.9613 40.2539C25.7372 39.2044 26.5575 38.1887 27.4222 37.207C28.6622 35.5194 29.1309 33.6444 28.8285 31.582C28.3904 30.7532 27.785 30.0696 27.0121 29.5312C24.8005 28.172 22.4176 27.2345 19.8636 26.7187C18.6901 26.732 17.5182 26.7711 16.348 26.8359C15.6053 25.937 14.9803 24.9604 14.473 23.9062C14.49 23.8158 14.529 23.7376 14.5902 23.6719C15.9811 23.5424 17.3092 23.1908 18.5746 22.6172C18.7894 22.4024 19.0043 22.1875 19.2191 21.9727C19.4177 21.3343 19.6521 20.7094 19.9222 20.0977C21.6801 18.5652 23.7309 17.6863 26.0746 17.4609C27.1444 17.1328 27.7499 16.4102 27.891 15.293C28.13 14.2001 28.1692 13.1064 28.0082 12.0117C27.8499 11.4627 27.518 11.0526 27.0121 10.7812C26.1269 10.5026 25.2286 10.2682 24.3167 10.0781C23.5554 9.48221 22.7351 8.97441 21.8558 8.55469C21.1595 8.38993 20.4564 8.35087 19.7464 8.4375C18.4793 8.66749 17.2098 8.88233 15.9378 9.08203C15.3519 9.02834 14.7855 8.89161 14.2386 8.67187C16.1342 7.584 18.1655 6.84182 20.3324 6.44531C21.4008 6.27766 22.4555 6.14094 23.4964 6.03516ZM11.7777 10.0195C12.7237 10.2762 13.6612 10.5692 14.5902 10.8984C15.033 11.0046 15.4822 11.0632 15.9378 11.0742C17.2556 10.9201 18.5642 10.7052 19.8636 10.4297C20.2542 10.3516 20.6449 10.3516 21.0355 10.4297C21.8066 10.8485 22.5487 11.3172 23.2621 11.8359C24.1428 12.1325 25.0413 12.3669 25.9574 12.5391C26.0307 12.627 26.0893 12.7247 26.1332 12.832C26.1308 13.7095 25.994 14.5689 25.723 15.4102C24.4689 15.7196 23.2188 16.0518 21.973 16.4062C20.9191 16.933 19.9035 17.5189 18.9261 18.1641C18.1428 18.9492 17.6351 19.8867 17.4027 20.9766C16.2512 21.325 15.0793 21.5984 13.8871 21.7969C12.6794 22.2785 12.2301 23.1574 12.5394 24.4336C13.0236 25.5434 13.6096 26.598 14.2972 27.5977C14.853 28.5203 15.6733 28.9499 16.7582 28.8867C17.5602 28.8214 18.3609 28.7434 19.1605 28.6523C21.8146 29.1011 24.2365 30.0971 26.4261 31.6406C27.096 32.3944 27.1937 33.2343 26.7191 34.1602C26.5558 34.6038 26.3606 35.0334 26.1332 35.4492C25.3303 36.5855 24.471 37.6793 23.555 38.7305C23.2816 39.1992 23.0081 39.668 22.7347 40.1367C22.3582 41.5366 22.0066 42.9429 21.68 44.3555C21.512 44.8104 21.2582 45.201 20.9183 45.5273C20.5785 45.201 20.3246 44.8104 20.1566 44.3555C19.6229 42.6639 19.1932 40.9451 18.8675 39.1992C18.5324 37.7664 17.8487 36.5359 16.8167 35.5078C15.9457 35.0625 15.2621 34.418 14.766 33.5742C14.537 32.217 14.3808 30.8498 14.2972 29.4727C13.9551 28.0753 13.1934 26.962 12.0121 26.1328C8.55513 24.5119 6.21138 21.8947 4.98081 18.2812C6.58247 14.9804 8.84809 12.2265 11.7777 10.0195ZM38.848 12.0117C38.9346 11.9964 39.0128 12.0159 39.0824 12.0703C42.051 14.9604 44.0236 18.4174 45.0003 22.4414C41.3675 24.5508 37.7347 26.6602 34.1019 28.7695C32.6612 28.5981 31.7432 27.8168 31.348 26.4258C31.359 26.1418 31.4176 25.8684 31.5238 25.6055C32.0394 24.8153 32.5082 23.995 32.93 23.1445C33.0661 22.5684 33.1441 21.9825 33.1644 21.3867C33.2889 21.2228 33.4451 21.1056 33.6332 21.0352C35.898 21.4705 38.1832 21.6071 40.4886 21.4453C41.3835 21.0969 41.9498 20.4524 42.1878 19.5117C42.6061 17.4206 41.7466 16.2879 39.6097 16.1133C38.0314 16.2873 36.4494 16.4045 34.8636 16.4648C34.6508 15.5825 34.7094 14.7231 35.0394 13.8867C35.398 13.5218 35.8082 13.2288 36.2699 13.0078C37.1362 12.6611 37.9957 12.3289 38.848 12.0117ZM46.1136 24.082C46.8667 24.4621 47.6089 24.8722 48.3402 25.3125C45.1371 27.1875 41.9339 29.0625 38.7308 30.9375C38.6136 31.0157 38.4964 31.0157 38.3792 30.9375C37.7345 30.5174 37.0704 30.1267 36.3871 29.7656C39.6367 27.868 42.8788 25.9734 46.1136 24.082ZM50.3324 26.543C50.7559 26.7547 51.1855 26.9695 51.6214 27.1875C51.7633 27.2921 51.7633 27.3898 51.6214 27.4805C48.4183 29.3164 45.2151 31.1523 42.0121 32.9883C41.5246 32.7642 41.0558 32.5103 40.6058 32.2266C43.8554 30.3289 47.0975 28.4344 50.3324 26.543ZM53.7308 28.5352C54.5243 28.9125 55.3055 29.3227 56.0746 29.7656C52.7742 31.6305 49.493 33.5251 46.2308 35.4492C45.5376 35.0734 44.8541 34.6828 44.18 34.2773C44.0994 34.1798 44.119 34.1018 44.2386 34.043C47.4293 32.2335 50.5933 30.3975 53.7308 28.5352ZM57.0121 31.4648C57.1485 35.2341 57.168 39.0231 57.0706 42.832C53.8086 44.7757 50.5274 46.6897 47.2269 48.5742C47.1487 44.7852 47.1487 40.9961 47.2269 37.207C50.5249 35.3341 53.7866 33.4201 57.0121 31.4648ZM35.3324 31.582C36.0767 31.925 36.7994 32.3156 37.5003 32.7539C37.504 34.5616 37.5821 36.3585 37.7347 38.1445C39.0634 39.1312 40.4892 39.9516 42.0121 40.6055C42.4001 40.5394 42.693 40.344 42.891 40.0195C42.93 38.6523 42.9691 37.2852 43.0081 35.918C43.7308 36.3183 44.434 36.7479 45.1175 37.207C45.2151 40.9576 45.1957 44.7076 45.0589 48.457C41.8558 46.6211 38.6526 44.7852 35.4496 42.9492C35.3324 39.161 35.2933 35.3719 35.3324 31.582ZM39.5511 33.9258C40.0069 34.1832 40.456 34.4566 40.8988 34.7461C40.9769 35.7618 40.9769 36.7773 40.8988 37.793C40.469 37.5196 40.0394 37.2461 39.6097 36.9727C39.5511 35.9578 39.5317 34.9421 39.5511 33.9258Z" fill="#EC7216"/>
+                                        <path opacity="0.936" fill-rule="evenodd" clip-rule="evenodd" d="M55.3717 16.5826C55.7022 16.5531 56.0146 16.6117 56.3092 16.7584C57.1989 17.467 58.0778 18.1897 58.9459 18.9264C59.0417 19.3323 59.0025 19.723 58.8287 20.0982C57.9833 20.8266 57.1044 21.5102 56.192 22.149C55.3893 22.3925 54.8815 22.1191 54.6686 21.3287C54.7504 21.0411 54.8676 20.7677 55.0201 20.5084C52.7154 20.4694 50.4108 20.4302 48.1061 20.3912C47.4855 20.2099 47.2316 19.7998 47.3444 19.1607C47.4246 18.8611 47.6004 18.6462 47.8717 18.5162C50.2936 18.4772 52.7154 18.438 55.1373 18.399C54.5386 17.7225 54.6168 17.1171 55.3717 16.5826Z" fill="#EC7216"/>
+                                        <path opacity="0.936" fill-rule="evenodd" clip-rule="evenodd" d="M38.2617 50.0977C39.4158 50.3155 39.6892 50.921 39.082 51.9141C44.9414 51.9531 50.8008 51.9922 56.6602 52.0312C57.5977 52.6562 57.5977 53.2813 56.6602 53.9062C50.8008 53.9453 44.9414 53.9844 39.082 54.0234C39.6837 54.9111 39.4688 55.5165 38.4375 55.8398C38.1105 55.7702 37.8176 55.6335 37.5586 55.4297C36.8555 54.8828 36.1523 54.336 35.4492 53.7891C34.9805 53.2421 34.9805 52.6954 35.4492 52.1484C36.3777 51.4322 37.3152 50.7486 38.2617 50.0977Z" fill="#EC7216"/>
+                                        </svg>                                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-4">
+                            <div class="items active hover-color">
+                                <h3 class="title"><span>02</span><br>Parcel <br> Information</h3>
+                                <div class="icon">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.9267 6.93568C13.6561 5.72912 15.4064 5.72912 16.1358 6.93568L21.427 15.6872C21.5129 15.8294 21.5595 15.9919 21.5619 16.1579C21.5644 16.324 21.5227 16.4878 21.4411 16.6324C21.3596 16.7771 21.241 16.8975 21.0976 16.9813C20.9542 17.0651 20.7911 17.1094 20.625 17.1094H17.8125V20.8594C17.8125 21.1081 17.7137 21.3465 17.5379 21.5223C17.3621 21.6982 17.1236 21.7969 16.875 21.7969C16.6264 21.7969 16.3879 21.6982 16.2121 21.5223C16.0363 21.3465 15.9375 21.1081 15.9375 20.8594V16.1719C15.9375 15.9233 16.0363 15.6848 16.2121 15.509C16.3879 15.3332 16.6264 15.2344 16.875 15.2344H18.9628L14.5312 7.90553L10.0997 15.2344H12.4219C12.6705 15.2344 12.909 15.3332 13.0848 15.509C13.2606 15.6848 13.3594 15.9233 13.3594 16.1719V25.0782C13.3594 25.3268 13.2606 25.5653 13.0848 25.7411C12.909 25.9169 12.6705 26.0157 12.4219 26.0157C12.1732 26.0157 11.9348 25.9169 11.759 25.7411C11.5831 25.5653 11.4844 25.3268 11.4844 25.0782V17.1094H8.4375C8.27129 17.1095 8.10806 17.0654 7.96453 16.9816C7.82099 16.8978 7.70231 16.7773 7.62065 16.6325C7.539 16.4878 7.49729 16.3239 7.49981 16.1577C7.50233 15.9915 7.54899 15.829 7.635 15.6868L12.9267 6.93568ZM31.6045 6.93568C30.8752 5.72912 29.1248 5.72912 28.3955 6.93568L23.1047 15.6872C23.0188 15.8294 22.9723 15.9918 22.9698 16.1578C22.9673 16.3239 23.0089 16.4876 23.0905 16.6322C23.172 16.7769 23.2905 16.8973 23.4338 16.9812C23.5772 17.065 23.7402 17.1093 23.9062 17.1094H26.9531V25.0782C26.9531 25.3268 27.0519 25.5653 27.2277 25.7411C27.4035 25.9169 27.642 26.0157 27.8906 26.0157C28.1393 26.0157 28.3777 25.9169 28.5535 25.7411C28.7294 25.5653 28.8281 25.3268 28.8281 25.0782V16.1719C28.8281 15.9233 28.7294 15.6848 28.5535 15.509C28.3777 15.3332 28.1393 15.2344 27.8906 15.2344H25.5684L30 7.90553L34.4316 15.2344H32.3438C32.0951 15.2344 31.8567 15.3332 31.6808 15.509C31.505 15.6848 31.4062 15.9233 31.4062 16.1719V20.8594C31.4062 21.1081 31.505 21.3465 31.6808 21.5223C31.8567 21.6982 32.0951 21.7969 32.3438 21.7969C32.5924 21.7969 32.8308 21.6982 33.0067 21.5223C33.1825 21.3465 33.2812 21.1081 33.2812 20.8594V17.1094H36.0938C36.2599 17.1094 36.4231 17.0652 36.5666 16.9814C36.71 16.8975 36.8286 16.7771 36.9102 16.6323C36.9918 16.4876 37.0335 16.3237 37.031 16.1576C37.0284 15.9915 36.9818 15.829 36.8958 15.6868L31.6045 6.93568ZM47.0733 6.93568C46.3439 5.72912 44.5936 5.72912 43.8642 6.93568L38.5734 15.6872C38.4876 15.8294 38.441 15.9918 38.4385 16.1578C38.436 16.3239 38.4777 16.4876 38.5592 16.6322C38.6407 16.7769 38.7592 16.8973 38.9026 16.9812C39.0459 17.065 39.2089 17.1093 39.375 17.1094H42.4219V25.0782C42.4219 25.3268 42.5206 25.5653 42.6965 25.7411C42.8723 25.9169 43.1107 26.0157 43.3594 26.0157C43.608 26.0157 43.8465 25.9169 44.0223 25.7411C44.1981 25.5653 44.2969 25.3268 44.2969 25.0782V16.1719C44.2969 15.9233 44.1981 15.6848 44.0223 15.509C43.8465 15.3332 43.608 15.2344 43.3594 15.2344H41.0372L45.4688 7.90553L49.9003 15.2344H47.8125C47.5639 15.2344 47.3254 15.3332 47.1496 15.509C46.9738 15.6848 46.875 15.9233 46.875 16.1719V20.8594C46.875 21.1081 46.9738 21.3465 47.1496 21.5223C47.3254 21.6982 47.5639 21.7969 47.8125 21.7969C48.0611 21.7969 48.2996 21.6982 48.4754 21.5223C48.6512 21.3465 48.75 21.1081 48.75 20.8594V17.1094H51.5625C51.7287 17.1096 51.892 17.0654 52.0355 16.9816C52.1791 16.8979 52.2978 16.7774 52.3794 16.6326C52.461 16.4878 52.5027 16.3239 52.5001 16.1577C52.4975 15.9915 52.4507 15.8289 52.3645 15.6868L47.0733 6.93568ZM12.5391 28.8282C8.97938 28.8282 6.09375 31.7138 6.09375 35.2735C6.09375 38.8332 8.97938 41.7188 12.5391 41.7188H48.2812C50.8702 41.7188 52.9688 43.8174 52.9688 46.4063C52.9688 48.9952 50.8702 51.0938 48.2812 51.0938H7.03125C6.78261 51.0938 6.54415 51.1926 6.36834 51.3684C6.19252 51.5442 6.09375 51.7827 6.09375 52.0313C6.09375 52.2799 6.19252 52.5184 6.36834 52.6942C6.54415 52.87 6.78261 52.9688 7.03125 52.9688H48.2812C51.9056 52.9688 54.8438 50.0307 54.8438 46.4063C54.8438 42.7819 51.9056 39.8438 48.2812 39.8438H12.5391C10.0148 39.8438 7.96875 37.7977 7.96875 35.2735C7.96875 32.7493 10.0148 30.7032 12.5391 30.7032H53.9062C54.1549 30.7032 54.3933 30.6044 54.5692 30.4286C54.745 30.2528 54.8438 30.0143 54.8438 29.7657C54.8438 29.517 54.745 29.2786 54.5692 29.1028C54.3933 28.927 54.1549 28.8282 53.9062 28.8282H12.5391Z" fill="white"/>
+                                        </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-4">
+                            <div class="items hover-color">
+                                <h3 class="title"><span>03</span><br> Real Time  <br> tracking</h3>
+                                <div class="icon">
+                                    <svg width="46" height="60" viewBox="0 0 46 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4761 20.3906C21.1246 20.3906 20.8902 20.2734 20.6558 20.0391C19.9527 19.3359 20.3042 18.5156 20.4214 18.1641L21.8277 15.1172L21.9449 15L35.1871 1.75781L35.4214 1.52344L38.4683 0.234375C38.7027 0.117188 39.0542 0 39.2886 0C39.6402 0 39.9917 0.117188 40.2261 0.351562C40.8121 0.9375 40.5777 1.75781 40.4605 2.22656L39.1714 5.27344C39.1714 5.39062 39.0542 5.50781 39.0542 5.50781L25.8121 18.75C25.6949 18.8672 25.6949 18.9844 25.5777 18.9844L22.4136 20.1562C22.1792 20.2734 21.8277 20.3906 21.4761 20.3906ZM22.9996 15.8203L21.7105 18.75V18.9844C21.7105 18.8672 21.8277 18.8672 21.9449 18.8672L24.8746 17.6953L37.8824 4.6875L39.0542 1.64062C39.1714 1.64062 39.1714 1.52344 39.1714 1.40625L39.0542 1.52344L36.1246 2.8125L22.9996 15.8203Z" fill="#EC7216"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M37.5312 22.8516H37.2969C37.0625 22.8516 36.9453 22.7344 36.8281 22.5L30.9688 12.3047C30.8516 12.0703 30.8516 11.7188 31.0859 11.4844L34.0156 8.55469C34.1328 8.4375 34.3672 8.32031 34.6016 8.4375C34.8359 8.4375 35.0703 8.55469 35.1875 8.78906L39.7578 19.8047C40.1094 20.625 39.875 21.5625 39.0547 22.0312L37.8828 22.7344C37.7656 22.8516 37.6484 22.8516 37.5312 22.8516ZM32.4922 12.0703L37.7656 21.2109L38.3516 20.8594C38.5859 20.7422 38.4688 20.3906 38.4688 20.2734L34.25 10.3125L32.4922 12.0703ZM28.7422 9.84375C28.625 9.84375 28.5078 9.84375 28.3906 9.72656L18.1953 3.86719C17.9609 3.75 17.8438 3.28125 17.9609 2.92969L18.6641 1.64062C19.0156 1.17188 19.6016 0.820312 20.1875 0.820312C20.4219 0.820312 20.7734 0.9375 21.0078 1.05469L31.9062 5.625C32.1406 5.74219 32.2578 5.85938 32.375 6.09375C32.375 6.32812 32.375 6.5625 32.1406 6.79688L29.2109 9.60938C29.0938 9.72656 28.9766 9.84375 28.7422 9.84375ZM19.6016 3.04688L28.625 8.32031L30.3828 6.44531L20.4219 2.34375C20.4219 2.22656 20.3047 2.22656 20.1875 2.22656C19.9531 2.22656 19.9531 2.34375 19.9531 2.34375L19.6016 3.04688ZM22.2969 25.7812H22.1797C21.9453 25.7812 21.7109 25.5469 21.5938 25.4297L19.4844 21.0938L15.2656 18.9844C15.0312 18.8672 14.9141 18.75 14.7969 18.5156C14.7969 18.2812 14.9141 18.0469 15.0312 17.9297L16.5547 16.4062C16.6719 16.2891 16.7891 16.1719 17.0234 16.1719L21.7109 15.9375C21.9453 15.9375 22.1797 16.0547 22.2969 16.1719L22.4141 16.2891C22.5312 16.5234 22.6484 16.7578 22.5312 17.1094L21.7109 18.75V18.9844C21.7109 18.8672 21.8281 18.8672 21.9453 18.8672L23.7031 18.1641C23.9375 18.0469 24.2891 18.1641 24.4062 18.2812C24.5234 18.5156 24.6406 18.6328 24.6406 18.8672L24.4062 23.6719C24.4062 23.7891 24.4062 24.0234 24.1719 24.1406L22.7656 25.5469C22.6484 25.6641 22.4141 25.7812 22.2969 25.7812ZM16.7891 18.1641L20.3047 19.9219C20.5391 20.0391 20.6562 20.1562 20.6562 20.2734L22.4141 23.9062L23 23.3203L23.2344 19.9219L22.4141 20.1562C22.1797 20.2734 21.8281 20.3906 21.4766 20.3906C21.125 20.3906 20.8906 20.2734 20.6562 20.0391C19.9531 19.3359 20.3047 18.5156 20.4219 18.1641L20.7734 17.4609L17.375 17.5781L16.7891 18.1641ZM45.2656 54.8438H39.1719C38.8203 54.8438 38.4688 54.6094 38.4688 54.1406C38.4688 51.7969 36.5938 49.8047 34.1328 49.8047H33.8984C31.5547 49.8047 29.5625 51.7969 29.5625 54.1406C29.5625 54.6094 29.2109 54.8438 28.8594 54.8438H17.2578C16.9062 54.8438 16.5547 54.6094 16.5547 54.1406C16.5547 51.7969 14.5625 49.8047 12.1016 49.8047C9.64062 49.8047 7.64844 51.7969 7.64844 54.1406C7.64844 54.6094 7.41406 54.8438 6.94531 54.8438H0.734375C0.382812 54.8438 0.03125 54.6094 0.03125 54.1406V45.8203C0.03125 45.3516 0.382812 45.1172 0.734375 45.1172H45.2656C45.6172 45.1172 45.9688 45.3516 45.9688 45.8203V54.1406C45.9688 54.6094 45.6172 54.8438 45.2656 54.8438ZM39.875 53.4375H44.5625V46.5234H1.4375V53.4375H6.35938C6.71094 50.625 9.17188 48.3984 12.1016 48.3984C15.1484 48.3984 17.6094 50.625 17.9609 53.4375H28.1562C28.5078 50.625 30.9688 48.3984 33.8984 48.3984H34.1328C37.0625 48.3984 39.5234 50.625 39.875 53.4375Z" fill="#EC7216"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M45.2656 46.5234H28.5078C28.1562 46.5234 27.8047 46.1719 27.8047 45.8203V26.7188C27.8047 26.25 28.1562 26.0156 28.5078 26.0156H38.2344C38.9375 26.0156 39.6406 26.4844 45.0312 35.8594C45.3828 36.5625 45.7344 37.0312 45.8516 37.2656C45.8516 37.3828 45.9688 37.5 45.9688 37.6172V45.8203C45.9688 46.1719 45.6172 46.5234 45.2656 46.5234ZM29.2109 45.1172H44.5625V37.8516C44.3281 37.5 44.0938 37.1484 43.8594 36.5625C42.5703 34.4531 39.0547 28.2422 38.1172 27.4219H29.2109V45.1172Z" fill="#EC7216"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M45.2656 38.3203H28.5078C28.1562 38.3203 27.8047 37.9688 27.8047 37.6172C27.8047 37.2656 28.1562 36.9141 28.5078 36.9141H45.2656C45.6172 36.9141 45.9688 37.2656 45.9688 37.6172C45.9688 37.9688 45.6172 38.3203 45.2656 38.3203ZM12.1016 60C8.9375 60 6.35938 57.4219 6.35938 54.1406C6.35938 50.9766 8.9375 48.3984 12.1016 48.3984C15.3828 48.3984 17.9609 50.9766 17.9609 54.1406C17.9609 57.4219 15.3828 60 12.1016 60ZM12.1016 49.8047C9.75781 49.8047 7.76562 51.7969 7.76562 54.1406C7.76562 56.6016 9.75781 58.5938 12.1016 58.5938C14.5625 58.5938 16.5547 56.6016 16.5547 54.1406C16.5547 51.7969 14.5625 49.8047 12.1016 49.8047ZM34.1328 60C30.8516 60 28.2734 57.4219 28.2734 54.1406C28.2734 50.9766 30.8516 48.3984 34.1328 48.3984C37.2969 48.3984 39.875 50.9766 39.875 54.1406C39.875 57.4219 37.2969 60 34.1328 60ZM34.1328 49.8047C31.6719 49.8047 29.6797 51.7969 29.6797 54.1406C29.6797 56.6016 31.6719 58.5938 34.1328 58.5938C36.5938 58.5938 38.4688 56.6016 38.4688 54.1406C38.4688 51.7969 36.5938 49.8047 34.1328 49.8047Z" fill="#EC7216"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.1016 57.1875C10.4609 57.1875 9.17188 55.7812 9.17188 54.1406C9.17188 52.5 10.4609 51.2109 12.1016 51.2109C13.7422 51.2109 15.1484 52.5 15.1484 54.1406C15.1484 55.7812 13.7422 57.1875 12.1016 57.1875ZM12.1016 52.6172C11.2812 52.6172 10.5781 53.3203 10.5781 54.1406C10.5781 55.0781 11.2812 55.7812 12.1016 55.7812C13.0391 55.7812 13.7422 55.0781 13.7422 54.1406C13.7422 53.3203 13.0391 52.6172 12.1016 52.6172ZM34.1328 57.1875C32.4922 57.1875 31.0859 55.7812 31.0859 54.1406C31.0859 52.5 32.4922 51.2109 34.1328 51.2109C35.7734 51.2109 37.0625 52.5 37.0625 54.1406C37.0625 55.7812 35.7734 57.1875 34.1328 57.1875ZM34.1328 52.6172C33.1953 52.6172 32.4922 53.3203 32.4922 54.1406C32.4922 55.0781 33.1953 55.7812 34.1328 55.7812C34.9531 55.7812 35.6562 55.0781 35.6562 54.1406C35.6562 53.3203 34.9531 52.6172 34.1328 52.6172ZM9.99219 42.0703H6.94531C6.59375 42.0703 6.125 41.7188 6.125 41.25V38.4375C6.125 38.0859 6.47656 37.7344 6.82812 37.7344H10.1094C10.4609 37.7344 10.8125 38.0859 10.8125 38.4375V41.25C10.8125 41.7188 10.4609 42.0703 9.99219 42.0703ZM7.53125 40.6641H9.40625V39.1406H7.53125V40.6641Z" fill="#EC7216"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1562 46.5234H3.78125C3.3125 46.5234 2.96094 46.0547 2.96094 45.5859V38.5547C2.96094 38.0859 3.3125 37.7344 3.78125 37.7344H13.1562C13.625 37.7344 13.9766 38.0859 13.9766 38.5547V45.5859C13.9766 46.0547 13.625 46.5234 13.1562 46.5234ZM4.36719 45.1172H12.5703V39.1406H4.36719V45.1172ZM22.1797 42.0703H19.25C18.7812 42.0703 18.4297 41.7188 18.4297 41.25V38.4375C18.4297 38.0859 18.6641 37.7344 19.1328 37.7344H22.2969C22.6484 37.7344 23 38.0859 23 38.4375V41.25C23 41.7188 22.6484 42.0703 22.1797 42.0703ZM19.8359 40.6641H21.5938V39.1406H19.8359V40.6641Z" fill="#EC7216"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M25.3438 46.5234H16.0859C15.6172 46.5234 15.1484 46.0547 15.1484 45.5859V38.5547C15.1484 38.0859 15.6172 37.7344 16.0859 37.7344H25.3438C25.8125 37.7344 26.2812 38.0859 26.2812 38.5547V45.5859C26.2812 46.0547 25.8125 46.5234 25.3438 46.5234ZM16.5547 45.1172H24.875V39.1406H16.5547V45.1172ZM9.99219 31.875H6.94531C6.59375 31.875 6.125 31.5234 6.125 31.0547V28.2422C6.125 27.7734 6.47656 27.5391 6.82812 27.5391H10.1094C10.4609 27.5391 10.8125 27.7734 10.8125 28.2422V31.0547C10.8125 31.5234 10.4609 31.875 9.99219 31.875ZM7.53125 30.4688H9.40625V28.9453H7.53125V30.4688Z" fill="#EC7216"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1562 36.2109H3.78125C3.3125 36.2109 2.96094 35.8594 2.96094 35.3906V28.3594C2.96094 27.8906 3.3125 27.5391 3.78125 27.5391H13.1562C13.625 27.5391 13.9766 27.8906 13.9766 28.3594V35.3906C13.9766 35.8594 13.625 36.2109 13.1562 36.2109ZM4.36719 34.8047H12.5703V28.9453H4.36719V34.8047ZM22.1797 31.875H19.25C18.7812 31.875 18.4297 31.5234 18.4297 31.0547V28.2422C18.4297 27.7734 18.6641 27.5391 19.1328 27.5391H22.2969C22.6484 27.5391 23 27.7734 23 28.2422V31.0547C23 31.5234 22.6484 31.875 22.1797 31.875ZM19.8359 30.4688H21.5938V28.9453H19.8359V30.4688Z" fill="#EC7216"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M25.3438 36.2109H16.0859C15.6172 36.2109 15.1484 35.8594 15.1484 35.3906V28.3594C15.1484 27.8906 15.6172 27.5391 16.0859 27.5391H25.3438C25.8125 27.5391 26.2812 27.8906 26.2812 28.3594V35.3906C26.2812 35.8594 25.8125 36.2109 25.3438 36.2109ZM16.5547 34.8047H24.875V28.9453H16.5547V34.8047ZM43.1562 60H3.07812C2.72656 60 2.375 59.6484 2.375 59.2969C2.375 58.9453 2.72656 58.5938 3.07812 58.5938H43.1562C43.5078 58.5938 43.8594 58.9453 43.8594 59.2969C43.8594 59.6484 43.5078 60 43.1562 60Z" fill="#EC7216"/>
+                                        </svg>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-4">
+                            <div class="items hover-color">
+                                <h3 class="title"><span>04</span><br>Takeover <br>  Products</h3>
+                                <div class="icon">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_191_277)">
+                                        <path opacity="0.931" fill-rule="evenodd" clip-rule="evenodd" d="M29.0039 -0.0585938C29.668 -0.0585938 30.332 -0.0585938 30.9961 -0.0585938C37.1576 0.810892 40.1849 4.36557 40.0781 10.6055C39.8891 12.7093 39.3618 14.7211 38.4961 16.6406C43.2226 16.6796 47.9493 16.7188 52.6758 16.7578C56.6929 17.4354 59.1148 19.7596 59.9414 23.7305C59.9414 24.5508 59.9414 25.3711 59.9414 26.1914C58.7585 31.005 55.6725 33.3293 50.6836 33.1641C49.8588 32.6735 49.7807 32.0876 50.4492 31.4062C52.8135 31.5413 54.8252 30.7795 56.4844 29.1211C58.586 26.3469 58.586 23.5734 56.4844 20.8008C55.4878 19.7066 54.2573 19.0229 52.793 18.75C47.7144 18.6524 42.6362 18.6718 37.5586 18.8086C36.347 21.0925 35.0188 23.2995 33.5742 25.4297C37.9492 27.3829 42.3243 29.3359 46.6992 31.2891C46.9085 31.3811 47.0843 31.5177 47.2266 31.6992C47.2852 36.4256 47.3047 41.1521 47.2852 45.8789C51.3478 45.8593 55.4104 45.8789 59.4727 45.9375C59.6895 46.0184 59.8458 46.155 59.9414 46.3477C59.9414 46.6602 59.9414 46.9726 59.9414 47.2852C59.8078 47.4376 59.6516 47.5744 59.4727 47.6953C55.4493 47.7343 51.4257 47.7735 47.4023 47.8125C47.3536 49.1125 47.334 50.421 47.3438 51.7383C47.2833 52.0352 47.1465 52.2891 46.9336 52.5C41.3623 54.9541 35.8154 57.4346 30.293 59.9414C30.0976 59.9414 29.9024 59.9414 29.707 59.9414C24.1846 57.4346 18.6377 54.9541 13.0664 52.5C12.9257 52.3942 12.8279 52.2575 12.7734 52.0898C12.7007 50.6448 12.6421 49.1994 12.5977 47.7539C10.7222 47.7735 8.84725 47.7539 6.97266 47.6953C3.18611 46.9358 0.842357 44.6897 -0.0585938 40.957C-0.0585938 40.0195 -0.0585938 39.082 -0.0585938 38.1445C1.24724 33.2128 4.45036 30.9668 9.55078 31.4062C10.1758 31.9532 10.1758 32.5 9.55078 33.0469C6.53041 32.8481 4.2062 34.0004 2.57812 36.5039C1.1964 39.5954 1.7628 42.2712 4.27734 44.5312C5.24934 45.2591 6.34309 45.6888 7.55859 45.8203C9.23964 45.9179 10.9193 45.8984 12.5977 45.7617C12.597 41.314 12.6165 36.8609 12.6562 32.4023C12.7076 32.0653 12.8248 31.7528 13.0078 31.4648C17.4717 29.4381 21.9444 27.4263 26.4258 25.4297C24.9578 23.2951 23.6296 21.0686 22.4414 18.75C16.0743 18.6718 9.70703 18.6718 3.33984 18.75C4.06629 19.4372 4.74988 20.1599 5.39062 20.918C5.5072 22.0515 5.01892 22.4617 3.92578 22.1484C2.57079 20.8131 1.24266 19.4654 -0.0585938 18.1055C-0.0585938 17.7929 -0.0585938 17.4805 -0.0585938 17.168C1.28497 15.883 2.61309 14.5745 3.92578 13.2422C5.05086 12.8824 5.53915 13.2926 5.39062 14.4727C4.74988 15.2307 4.06629 15.9534 3.33984 16.6406C9.39454 16.7188 15.4492 16.7188 21.5039 16.6406C20.1193 13.6659 19.6702 10.5605 20.1562 7.32422C20.9393 3.98282 22.9509 1.73672 26.1914 0.585938C27.1295 0.301119 28.067 0.0862757 29.0039 -0.0585938ZM29.1211 1.69922C33.7617 1.52727 36.672 3.67571 37.8516 8.14453C38.0959 9.71307 38.0569 11.2756 37.7344 12.832C36.9571 16.0268 35.668 18.9955 33.8672 21.7383C32.6687 23.562 31.3796 25.3198 30 27.0117C27.5677 23.8296 25.4583 20.4312 23.6719 16.8164C22.612 14.711 21.9675 12.4845 21.7383 10.1367C22.1323 5.48653 24.5932 2.67403 29.1211 1.69922ZM29.4727 6.73828C31.678 6.74637 32.928 7.84013 33.2227 10.0195C33.0353 11.9843 31.961 13.078 30 13.3008C28.1494 13.0126 27.0751 11.9385 26.7773 10.0781C26.9727 8.38046 27.8712 7.26718 29.4727 6.73828ZM27.3633 27.1289C27.501 27.1032 27.6182 27.1423 27.7148 27.2461C28.195 27.9804 28.7418 28.6641 29.3555 29.2969C29.8591 29.6936 30.3475 29.6741 30.8203 29.2383C31.2865 28.4611 31.8334 27.758 32.4609 27.1289C33.3858 27.523 34.3038 27.9332 35.2148 28.3594C30.623 30.4794 26.0136 32.5692 21.3867 34.6289C19.585 33.8395 17.7881 33.0387 15.9961 32.2266C19.8234 30.5858 23.6125 28.8866 27.3633 27.1289ZM37.5586 29.4727C39.6976 30.3098 41.807 31.2278 43.8867 32.2266C39.2948 34.3466 34.6855 36.4364 30.0586 38.4961C27.9882 37.5782 25.918 36.6601 23.8477 35.7422C28.425 33.6485 32.9953 31.5587 37.5586 29.4727ZM14.5898 33.8086C19.3624 35.8945 24.128 38.0039 28.8867 40.1367C29.0235 45.9176 29.0429 51.6988 28.9453 57.4805C24.1895 55.3093 19.4239 53.1608 14.6484 51.0352C14.5898 45.2931 14.5703 39.5509 14.5898 33.8086ZM45.1758 33.8086C45.332 36.6395 45.4102 39.5106 45.4102 42.4219C45.3906 45.293 45.3711 48.1641 45.3516 51.0352C40.5761 53.1608 35.8105 55.3093 31.0547 57.4805C30.9571 51.6988 30.9765 45.9176 31.1133 40.1367C35.8225 38.0474 40.51 35.938 45.1758 33.8086Z" fill="#EC7216"/>
+                                        <path opacity="0.93" fill-rule="evenodd" clip-rule="evenodd" d="M29.7071 4.74609C32.7213 4.85061 34.5377 6.37405 35.1564 9.31641C35.3088 12.3654 33.9221 14.299 30.9962 15.1172C27.7187 15.4309 25.6679 14.0051 24.8439 10.8398C24.6758 7.35755 26.297 5.3263 29.7071 4.74609ZM29.4728 6.73828C27.8713 7.26718 26.9728 8.38046 26.7775 10.0781C27.0752 11.9385 28.1495 13.0126 30.0001 13.3008C31.9611 13.078 33.0354 11.9843 33.2228 10.0195C32.9282 7.84012 31.6781 6.74637 29.4728 6.73828Z" fill="#EC7216"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_191_277">
+                                        <rect width="60" height="60" fill="white"/>
+                                        </clipPath>
+                                        </defs>
+                                        </svg>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-4">
+                            <div class="items hover-color">
+                                <h3 class="title"><span>05</span><br>On time <br> delivery</h3>
+                                <div class="icon">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_191_265)">
+                                        <path opacity="0.94" fill-rule="evenodd" clip-rule="evenodd" d="M10.2541 -0.0585938C13.0666 -0.0585938 15.8791 -0.0585938 18.6916 -0.0585938C18.8842 0.0370822 19.0209 0.193332 19.1017 0.410156C19.1603 3.41772 19.1799 6.42553 19.1603 9.43359C20.4109 9.41408 21.661 9.43362 22.9103 9.49219C23.4639 9.77757 23.6397 10.2268 23.4377 10.8398C20.6731 14.5328 17.8802 18.2046 15.0587 21.8555C14.4132 22.1007 13.8858 21.9445 13.4767 21.3867C10.8205 17.8711 8.16422 14.3555 5.50797 10.8398C5.32416 10.2392 5.49994 9.79001 6.03531 9.49219C7.28471 9.43362 8.5347 9.41408 9.78531 9.43359C9.76579 6.46459 9.78531 3.49583 9.8439 0.527344C9.92561 0.283078 10.0623 0.0877662 10.2541 -0.0585938ZM11.7775 1.81641C13.6135 1.81641 15.4493 1.81641 17.2853 1.81641C17.2657 4.82447 17.2853 7.83229 17.3439 10.8398C17.4025 11.0547 17.5393 11.1914 17.7541 11.25C18.694 11.2697 19.6315 11.3283 20.5666 11.4258C18.6014 14.0686 16.6093 16.6857 14.59 19.2773C12.5317 16.6859 10.5005 14.0687 8.49625 11.4258C9.43132 11.3283 10.3688 11.2697 11.3087 11.25C11.4064 11.1523 11.5041 11.0547 11.6017 10.957C11.7732 7.91617 11.8318 4.86929 11.7775 1.81641Z" fill="#EC7216"/>
+                                        <path opacity="0.929" fill-rule="evenodd" clip-rule="evenodd" d="M38.6132 -0.0585938C38.8475 -0.0585938 39.0819 -0.0585938 39.3163 -0.0585938C42.3372 1.62803 45.384 3.28818 48.4569 4.92188C48.6523 5 48.8475 5 49.0429 4.92188C51.531 3.93197 54.1091 3.50228 56.7772 3.63281C58.3002 3.85057 59.3549 4.65136 59.9413 6.03516C59.9413 6.69922 59.9413 7.36328 59.9413 8.02734C59.4394 9.31956 58.6582 10.4328 57.5975 11.3672C56.1659 12.5421 54.662 13.6163 53.0858 14.5898C52.4482 17.9859 51.8232 21.3844 51.2108 24.7852C51.1686 25.0103 51.0709 25.2056 50.9179 25.3711C49.799 25.8547 48.6662 26.3039 47.5194 26.7188C46.8921 26.8641 46.4429 26.6491 46.1718 26.0742C46.0124 23.4514 45.7975 20.8343 45.5272 18.2227C41.5082 19.8162 37.4066 21.1638 33.2225 22.2656C32.4848 23.8389 31.7622 25.4209 31.0546 27.0117C30.957 27.1093 30.8592 27.2071 30.7616 27.3047C29.9548 27.5304 29.1345 27.7062 28.3007 27.832C27.5861 27.801 27.1954 27.4298 27.1288 26.7188C27.308 25.4837 27.5033 24.2532 27.7147 23.0273C27.065 23.0276 26.4009 23.0081 25.7225 22.9688C24.6793 22.8628 24.2692 22.2964 24.4921 21.2695C24.8523 20.5303 25.3405 19.8858 25.9569 19.3359C24.9022 18.6718 23.8475 18.0079 22.7929 17.3438C22.2258 16.9695 22.089 16.4811 22.3827 15.8789C23.0752 15.1253 23.876 14.5393 24.785 14.1211C26.4997 14.5448 28.199 15.0136 29.8827 15.5273C33.4852 13.0712 37.1766 10.747 40.9569 8.55469C39.0204 6.73528 37.1258 4.87982 35.2733 2.98828C35.1042 2.43609 35.2409 1.98688 35.6835 1.64062C36.6674 1.07108 37.644 0.504679 38.6132 -0.0585938ZM38.7304 2.05078C39.1043 2.12018 39.4559 2.2569 39.785 2.46094C42.5702 4.03539 45.3827 5.55882 48.2225 7.03125C48.4179 7.10938 48.6131 7.10938 48.8085 7.03125C50.3727 6.43512 51.9742 5.96637 53.6132 5.625C54.545 5.45604 55.4825 5.41698 56.4257 5.50781C57.8148 5.807 58.2641 6.60779 57.7733 7.91016C57.2215 8.81432 56.5379 9.61509 55.7225 10.3125C54.3607 11.3614 52.9349 12.3184 51.4452 13.1836C50.6611 16.7327 49.8994 20.2875 49.16 23.8477C48.7268 23.996 48.3166 24.1912 47.9296 24.4336C47.7232 21.7781 47.5279 19.122 47.3436 16.4648C47.153 15.9979 46.8014 15.7635 46.2889 15.7617C41.5997 17.5852 36.8145 19.1282 31.9335 20.3906C31.807 20.5027 31.6704 20.6003 31.5233 20.6836C30.8023 22.3598 30.021 24.0005 29.1796 25.6055C29.2968 24.2774 29.414 22.9492 29.5311 21.6211C29.4391 21.4118 29.3025 21.236 29.121 21.0938C28.3788 21.0547 27.6366 21.0156 26.8944 20.9766C27.2244 20.5332 27.5956 20.1231 28.0077 19.7461C28.1815 19.3709 28.2206 18.9802 28.1249 18.5742C27.0816 17.7693 26.0073 17.0075 24.9022 16.2891C24.9638 16.208 25.0419 16.1494 25.1366 16.1133C26.8794 16.6563 28.6372 17.1056 30.41 17.4609C34.6376 14.5554 38.993 11.8405 43.4764 9.31641C43.6472 8.98055 43.6862 8.62898 43.5936 8.26172C41.6564 6.36334 39.6837 4.50787 37.6757 2.69531C38.0739 2.53628 38.4254 2.32144 38.7304 2.05078Z" fill="#EC7216"/>
+                                        <path opacity="0.939" fill-rule="evenodd" clip-rule="evenodd" d="M59.9414 40.0207C59.9414 44.7863 59.9414 49.5519 59.9414 54.3175C59.8458 54.5102 59.6895 54.6468 59.4727 54.7277C58.2233 54.7863 56.9733 54.8059 55.7227 54.7863C55.5737 57.4333 54.2456 59.152 51.7383 59.9425C51.0352 59.9425 50.332 59.9425 49.6289 59.9425C47.0638 59.1902 45.7357 57.4715 45.6445 54.7863C42.3633 54.7863 39.082 54.7863 35.8008 54.7863C35.7087 57.4746 34.3805 59.1932 31.8164 59.9425C31.1133 59.9425 30.4102 59.9425 29.707 59.9425C27.143 59.1932 25.8148 57.4746 25.7227 54.7863C23.9254 54.8059 22.1285 54.7863 20.332 54.7277C20.1505 54.5854 20.0139 54.4096 19.9219 54.2003C19.9017 53.6881 19.8431 53.1803 19.7461 52.6769C13.0021 54.3936 7.39664 52.5968 2.92969 47.2863C1.34729 45.0958 0.351198 42.6739 -0.0585938 40.0207C-0.0585938 38.7706 -0.0585938 37.5207 -0.0585938 36.2707C1.27134 29.0615 5.52915 24.667 12.7148 23.0871C18.6449 22.2895 23.5473 24.1449 27.4219 28.6535C30.9991 33.508 31.6632 38.7423 29.4141 44.3566C29.1267 44.9902 28.7946 45.5957 28.418 46.173C33.8085 46.2316 39.1991 46.2512 44.5898 46.2316C44.5703 41.2314 44.5898 36.2314 44.6484 31.2316C44.6951 30.9114 44.8709 30.6966 45.1758 30.5871C47.7929 30.5089 50.4102 30.5089 53.0273 30.5871C54.1623 30.8513 55.0021 31.4958 55.5469 32.5207C57.0459 35.0125 58.5108 37.5126 59.9414 40.0207ZM15.1758 24.7863C15.5235 24.8436 15.8359 24.9802 16.1133 25.1964C17.4202 26.868 18.2405 28.7626 18.5742 30.88C16.3853 30.9191 14.1979 30.88 12.0117 30.7628C12.4189 28.7775 13.2002 26.961 14.3555 25.3136C14.6203 25.1041 14.8937 24.9283 15.1758 24.7863ZM11.6602 25.255C11.7628 25.2397 11.841 25.2787 11.8945 25.3722C11.0127 27.0802 10.3877 28.8772 10.0195 30.7628C8.06484 30.8019 6.11171 30.7627 4.16016 30.6457C6.04582 27.9849 8.54582 26.1881 11.6602 25.255ZM18.5742 25.3722C21.8461 26.0947 24.4632 27.8525 26.4258 30.6457C24.4738 30.7823 22.5207 30.8019 20.5664 30.7042C20.3198 29.6599 20.0269 28.6248 19.6875 27.5988C19.3921 26.8044 19.0209 26.0621 18.5742 25.3722ZM34.2773 32.4035C36.6993 32.4035 39.1211 32.4035 41.543 32.4035C41.543 33.4582 41.543 34.5128 41.543 35.5675C39.1211 35.5675 36.6993 35.5675 34.2773 35.5675C34.2773 34.5128 34.2773 33.4582 34.2773 32.4035ZM46.582 32.4035C48.4965 32.3839 50.4105 32.4035 52.3242 32.4621C53.1723 32.6458 53.7778 33.134 54.1406 33.9269C55.327 35.968 56.5575 37.9797 57.832 39.9621C54.0823 40.0207 50.3323 40.0402 46.582 40.0207C46.582 37.4816 46.582 34.9426 46.582 32.4035ZM2.98828 32.755C5.21484 32.755 7.44141 32.755 9.66797 32.755C9.50555 34.1963 9.38836 35.6416 9.31641 37.091C6.81641 37.091 4.3164 37.091 1.81641 37.091C2.0065 35.5882 2.39712 34.1429 2.98828 32.755ZM11.6602 32.755C14.1211 32.755 16.582 32.755 19.043 32.755C19.2107 34.1949 19.2888 35.6402 19.2773 37.091C16.6208 37.1105 13.9645 37.091 11.3086 37.0324C11.4154 35.6118 11.5326 34.186 11.6602 32.755ZM20.8008 32.8722C23.0678 32.8332 25.3334 32.8722 27.5977 32.9894C28.28 34.3126 28.6316 35.7188 28.6523 37.2082C26.1524 37.2082 23.6523 37.2082 21.1523 37.2082C21.1666 35.7498 21.0495 34.3044 20.8008 32.8722ZM1.81641 39.0832C4.3164 39.0832 6.81641 39.0832 9.31641 39.0832C9.37988 40.5333 9.49706 41.9786 9.66797 43.4191C7.44107 43.4387 5.2145 43.4191 2.98828 43.3605C2.38792 41.9943 1.99729 40.5686 1.81641 39.0832ZM11.3086 39.0832C13.9649 39.0832 16.6211 39.0832 19.2773 39.0832C19.202 40.5322 19.0848 41.9775 18.9258 43.4191C16.5027 43.4581 14.0808 43.4191 11.6602 43.3019C11.4595 41.905 11.3423 40.4988 11.3086 39.0832ZM21.2695 39.0832C23.7695 39.0832 26.2696 39.0832 28.7695 39.0832C28.625 40.5795 28.2343 42.0052 27.5977 43.3605C25.3714 43.4191 23.1449 43.4387 20.918 43.4191C21.1126 41.9807 21.2298 40.5355 21.2695 39.0832ZM34.2773 40.255C36.6993 40.255 39.1211 40.255 41.543 40.255C41.543 41.3097 41.543 42.3644 41.543 43.4191C39.1211 43.4191 36.6993 43.4191 34.2773 43.4191C34.2773 42.3644 34.2773 41.3097 34.2773 40.255ZM46.582 41.8957C50.4102 41.8957 54.2382 41.8957 58.0664 41.8957C58.0664 43.3409 58.0664 44.7863 58.0664 46.2316C54.2382 46.2316 50.4102 46.2316 46.582 46.2316C46.582 44.7863 46.582 43.3409 46.582 41.8957ZM4.16016 45.4113C6.15234 45.4113 8.14453 45.4113 10.1367 45.4113C10.423 47.3444 11.048 49.1608 12.0117 50.8605C8.64153 50.1268 6.02435 48.3104 4.16016 45.4113ZM12.0117 45.5285C14.1802 45.3728 16.3677 45.3728 18.5742 45.5285C16.3648 53.3368 14.1772 53.3368 12.0117 45.5285ZM20.6836 45.4113C22.6761 45.3917 24.6683 45.4113 26.6602 45.4699C24.6473 48.2054 22.0106 50.0608 18.75 51.0363C19.5425 49.2253 20.1871 47.3503 20.6836 45.4113ZM26.6602 48.2238C37.1289 48.2238 47.5977 48.2238 58.0664 48.2238C58.0664 49.7862 58.0664 51.3488 58.0664 52.9113C57.1671 52.9307 56.2686 52.9113 55.3711 52.8527C54.0831 50.4556 52.0909 49.5181 49.3945 50.0402C47.8655 50.5101 46.7326 51.4476 45.9961 52.8527C42.4805 52.9309 38.9648 52.9309 35.4492 52.8527C34.1612 50.4556 32.169 49.5181 29.4727 50.0402C27.9459 50.5132 26.8131 51.4507 26.0742 52.8527C24.6686 52.9113 23.2623 52.9309 21.8555 52.9113C21.8222 52.5273 21.8612 52.1562 21.9727 51.798C23.8298 50.97 25.3923 49.7785 26.6602 48.2238ZM30.0586 51.8566C32.2979 51.7523 33.587 52.807 33.9258 55.0207C33.7093 56.9063 32.6546 57.922 30.7617 58.0675C28.9185 57.8455 27.8638 56.8103 27.5977 54.9621C27.7914 53.4216 28.6117 52.3864 30.0586 51.8566ZM49.9805 51.8566C52.2427 51.755 53.5317 52.8292 53.8477 55.0793C53.4541 57.1524 52.2042 58.1289 50.0977 58.0089C47.7291 57.1526 47.0454 55.5706 48.0469 53.2628C48.5483 52.584 49.1929 52.1152 49.9805 51.8566Z" fill="#EC7216"/>
+                                        <path opacity="0.94" fill-rule="evenodd" clip-rule="evenodd" d="M32.8711 30.5278C36.2308 30.5083 39.5901 30.5278 42.9492 30.5864C43.086 30.7232 43.2226 30.8598 43.3594 30.9966C43.4376 33.0278 43.4376 35.0591 43.3594 37.0903C43.2171 37.2719 43.0414 37.4085 42.8321 37.5005C39.5508 37.5787 36.2696 37.5787 32.9883 37.5005C32.6048 37.3903 32.39 37.1364 32.3438 36.7388C32.2656 34.9419 32.2656 33.145 32.3438 31.3482C32.4059 30.9866 32.5817 30.7132 32.8711 30.5278ZM34.2774 32.4028C34.2774 33.4575 34.2774 34.5122 34.2774 35.5669C36.6993 35.5669 39.1211 35.5669 41.543 35.5669C41.543 34.5122 41.543 33.4575 41.543 32.4028C39.1211 32.4028 36.6993 32.4028 34.2774 32.4028Z" fill="#EC7216"/>
+                                        <path opacity="0.94" fill-rule="evenodd" clip-rule="evenodd" d="M32.8711 38.3794C36.2308 38.3598 39.5901 38.3794 42.9492 38.438C43.086 38.5748 43.2226 38.7114 43.3594 38.8482C43.4733 40.9292 43.4343 42.9994 43.2422 45.0591C43.0675 45.2353 42.8527 45.333 42.5977 45.3521C39.3092 45.4663 36.0279 45.4272 32.7539 45.2349C32.4882 45.0523 32.3515 44.7985 32.3438 44.4732C32.2656 42.7153 32.2656 40.9575 32.3438 39.1997C32.3608 38.8138 32.5366 38.5404 32.8711 38.3794ZM34.2774 40.2544C34.2774 41.3091 34.2774 42.3638 34.2774 43.4185C36.6993 43.4185 39.1211 43.4185 41.543 43.4185C41.543 42.3638 41.543 41.3091 41.543 40.2544C39.1211 40.2544 36.6993 40.2544 34.2774 40.2544Z" fill="#EC7216"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_191_265">
+                                        <rect width="60" height="60" fill="white"/>
+                                        </clipPath>
+                                        </defs>
+                                        </svg>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-4">
+                            <div class="items last">
+                                <h3 class="title">View Our All <br>Service</h3>
+                                <a href="about-us.html"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- team Section Start -->
+        <section class="team-area fix">
+            <div class="team-wrapper team-style-2 section-padding ">
+                <div class="container-fluid">
+                    <div class="title text-center">
+                        <span class="title-sm split_chars"><img src="assets/img/icon/icon-1-car.svg" alt="icon">Our Team</span>
+                        <h2 class="section__title title_anim">Simplifying your logistics <br> of the challenges</h2>
+                    </div>
+                    <div class="team-item-wrap">
+                        <div class="row gy-5">
+                            <div class="col-md-6 col-xl-3">
+                                <div class="team-box">
+                                    <div class="thumb">
+                                        <img src="assets/img/thumb/team-5.png" alt="client">
+                                        <div class="content-box">
+                                            <div class="content">
+                                                <h5 class="team-title">
+                                                    <a href="team-details.html">Leslie Alexander</a>
+                                                </h5>
+                                                <span>Nursing Assistant</span> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="icon">
+                                        <a href="#" class="hover-icon-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#" class="share"><i class="fa-light fa-share-nodes"></i></a>
+                                        <a href="#" class="hover-icon-2"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-3">
+                                <div class="team-box">
+                                    <div class="thumb">
+                                        <img src="assets/img/thumb/team-6.png" alt="client">
+                                        <div class="content-box">
+                                            <div class="content">
+                                                <h5 class="team-title">
+                                                    <a href="team-details.html">Esther Howard</a>
+                                                </h5>
+                                                <span>President of Sales</span> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="icon">
+                                        <a href="#" class="hover-icon-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#" class="share"><i class="fa-light fa-share-nodes"></i></a>
+                                        <a href="#" class="hover-icon-2"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-3">
+                                <div class="team-box">
+                                    <div class="thumb">
+                                        <img src="assets/img/thumb/team-7.png" alt="client">
+                                        <div class="content-box">
+                                            <div class="content">
+                                                <h5 class="team-title">
+                                                    <a href="team-details.html">Dianne Russell</a>
+                                                </h5>
+                                                <span>Project Manager</span> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="icon">
+                                        <a href="#" class="hover-icon-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#" class="share"><i class="fa-light fa-share-nodes"></i></a>
+                                        <a href="#" class="hover-icon-2"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-3">
+                                <div class="team-box">
+                                    <div class="thumb">
+                                        <img src="assets/img/thumb/team-8.png" alt="client">
+                                        <div class="content-box">
+                                            <div class="content">
+                                                <h5 class="team-title">
+                                                    <a href="team-details.html">Dianne Russell</a>
+                                                </h5>
+                                                <span>Project Manager</span> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="icon">
+                                        <a href="#" class="hover-icon-1"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#" class="share"><i class="fa-light fa-share-nodes"></i></a>
+                                        <a href="#" class="hover-icon-2"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- testimonial Section Start -->
+        <section class="testimonial-area fix">
+            <div class="testimonial-wrapper testimonial-style-1 section-padding">
+                <div class="shape">
+                    <img class="shape-1" src="assets/img/bg/testimonial-bg.png" alt="img">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="testimonial-title d-flex justify-content-between">
+                            <div class="title-box">
+                                <span class="title-sm split_chars"><img src="assets/img/icon/icon-1-car.svg" alt="icon">Testimonial</span>
+                                <h2 class="section__title title_anim">Trusted by world <br> leading companies</h2>
+                            </div>
+                            <div class="testimonial-slider-btn">
+                                <div class="efast-swiper-button-prev long-arow"><i class="fa-light fa-arrow-left-long"></i></div>
+                                <div class="efast-swiper-button-next long-arow"><i class="fa-sharp fa-light fa-arrow-right-long"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-container">
+                        <div class="swiper testimonial-initial">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="slider-wrap">
+                                        <div class="shapes">
+                                            <img class="img-1" src="assets/img/icon/quoteduble.svg" alt="img">
+                                            <img class="img-2" src="assets/img/shapes/testimonial.png" alt="img">
+                                        </div>
+                                        <div class="author">
+                                            <div class="image">
+                                                <img src="assets/img/testimonial/author-1.png" alt="img">
+                                            </div>
+                                            <div class="text">
+                                                <h4 class="section-24-black">Cameron Williamson</h4>
+                                                <span>Ceo & Founder</span>
+                                            </div>
+                                            <div class="rating">
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="content">
+                                            <p>The most advanced revenue than this. Iwill refer everyone 
+                                                I like Level more and more each day because it makes my
+                                                easier. It really saves me time and effort. Level is exactly
+                                                business has been lacking.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider-wrap">
+                                        <div class="shapes">
+                                            <img class="img-1" src="assets/img/icon/quoteduble.svg" alt="img">
+                                            <img class="img-2" src="assets/img/shapes/testimonial.png" alt="img">
+                                        </div>
+                                        <div class="author">
+                                            <div class="image">
+                                                <img src="assets/img/testimonial/author-1.png" alt="img">
+                                            </div>
+                                            <div class="text">
+                                                <h4 class="section-24-black">Cameron Williamson</h4>
+                                                <span>Ceo & Founder</span>
+                                            </div>
+                                            <div class="rating">
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="content">
+                                            <p>The most advanced revenue than this. Iwill refer everyone 
+                                                I like Level more and more each day because it makes my
+                                                easier. It really saves me time and effort. Level is exactly
+                                                business has been lacking.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider-wrap">
+                                        <div class="shapes">
+                                            <img class="img-1" src="assets/img/icon/quoteduble.svg" alt="img">
+                                            <img class="img-2" src="assets/img/shapes/testimonial.png" alt="img">
+                                        </div>
+                                        <div class="author">
+                                            <div class="image">
+                                                <img src="assets/img/testimonial/author-1.png" alt="img">
+                                            </div>
+                                            <div class="text">
+                                                <h4 class="section-24-black">Cameron Williamson</h4>
+                                                <span>Ceo & Founder</span>
+                                            </div>
+                                            <div class="rating">
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="content">
+                                            <p>The most advanced revenue than this. Iwill refer everyone 
+                                                I like Level more and more each day because it makes my
+                                                easier. It really saves me time and effort. Level is exactly
+                                                business has been lacking.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider-wrap">
+                                        <div class="shapes">
+                                            <img class="img-1" src="assets/img/icon/quoteduble.svg" alt="img">
+                                            <img class="img-2" src="assets/img/shapes/testimonial.png" alt="img">
+                                        </div>
+                                        <div class="author">
+                                            <div class="image">
+                                                <img src="assets/img/testimonial/author-1.png" alt="img">
+                                            </div>
+                                            <div class="text">
+                                                <h4 class="section-24-black">Cameron Williamson</h4>
+                                                <span>Ceo & Founder</span>
+                                            </div>
+                                            <div class="rating">
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="content">
+                                            <p>The most advanced revenue than this. Iwill refer everyone 
+                                                I like Level more and more each day because it makes my
+                                                easier. It really saves me time and effort. Level is exactly
+                                                business has been lacking.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider-wrap">
+                                        <div class="shapes">
+                                            <img class="img-1" src="assets/img/icon/quoteduble.svg" alt="img">
+                                            <img class="img-2" src="assets/img/shapes/testimonial.png" alt="img">
+                                        </div>
+                                        <div class="author">
+                                            <div class="image">
+                                                <img src="assets/img/testimonial/author-1.png" alt="img">
+                                            </div>
+                                            <div class="text">
+                                                <h4 class="section-24-black">Cameron Williamson</h4>
+                                                <span>Ceo & Founder</span>
+                                            </div>
+                                            <div class="rating">
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="content">
+                                            <p>The most advanced revenue than this. Iwill refer everyone 
+                                                I like Level more and more each day because it makes my
+                                                easier. It really saves me time and effort. Level is exactly
+                                                business has been lacking.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="testimonial-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </main>
+       <!-- Start Footer Area -->
+       <footer class="footer-area fix">
+        <div class="footer-wrap footer-style-1 nblue-bg p-relative">
+            <div class="footer-shape">
+                <img class="shape-1 p-absolute" src="assets/img/shapes/footer-1-plane.png" alt="Decorative Shape" />
+                <img class="shape-2 p-absolute" src="assets/img/shapes/footer-1-right.png" alt="Decorative Shape" />
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-end">
+                    <!-- About WoW Plus -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-content">
+                            <div class="footer-logo">
+                                <a href="index.html">
+                                    <img src="assets/img/logo/logo-2.png" alt="WoW Plus Logo" />
+                                </a>
+                            </div>
+                            <p class="clr-white-2">
+                                WoW Plus provides <strong> efficient, reliable, and on-demand</strong> cargo transportation solutions powered by <strong> Sprinter Cargo Vans</strong>.  
+                            </p>
+                            <div class="footer-social">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Quick Links -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="quiklinks">
+                            <h4 class="section-24">Quick Links</h4>
+                            <ul>
+                                <li><a href="about-us.html"><i class="fa-solid fa-angles-right"></i> About Us</a></li>
+                                <li><a href="service.html"><i class="fa-solid fa-angles-right"></i> Our Services</a></li>
+                                <li><a href="faq.html"><i class="fa-solid fa-angles-right"></i> FAQs</a></li>
+                                <li><a href="news.html"><i class="fa-solid fa-angles-right"></i> News</a></li>
+                                <li><a href="contact-us.html"><i class="fa-solid fa-angles-right"></i> Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <!-- Our Services -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="quiklinks">
+                            <h4 class="section-24">Join Us</h4>
+                            <ul>
+                                <li><a href="#" target="_blank"><i class="fa-solid fa-angles-right"></i> Become a Customer</a></li>
+                                <li><a href="#" target="_blank"><i class="fa-solid fa-angles-right"></i> Become an Employee</a></li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <!-- Contact & Forms -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="quiklinks">
+                            <h4 class="section-24">Get in Touch</h4>
+                            <div class="contactlink-info">
+                                <a class="clr-white" href="mailto:info@wowplus.com">
+                                    <i class="fa-solid fa-envelope"></i> info@wowplus.com
+                                </a>
+                            </div>
+                            <div class="contactlink-info">
+                                <a class="clr-white" href="tel:+18449697587">
+                                    <i class="fa-solid fa-phone-volume"></i> +1 (844) WOW PLUS
+                                </a>
+                            </div>
+                            <div class="contactlink-info">
+                                <span class="clr-white">
+<i class="fa-solid fa-map-marker-alt"></i>  
+                                14050 SW 84th ST, Ste 204,  
+                                Miami, FL 33183, USA
+                                </span>
+                                
+                            </div>
+                            <div class="contactlink-input p-relative">
+                                <form action="#">
+                                    <div class="input-box">
+                                        <input type="email" name="email" placeholder="Your email address" required />
+                                        <button type="submit" class="submit-btn">
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                    <div class="check-box">
+                                        <input type="checkbox" name="check-box" id="check" />
+                                        <p>
+                                            <label for="check">I agree to the </label>
+                                            <a href="privacy-policy.html">Privacy Policy</a>.
+                                        </p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Footer Bottom Section -->
+        <div class="footer-end">
+            <div class="container-fluid p-relative">
+                <div class="footer-bottom">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="footer-copyright">
+                                <span>© 2025 WoW Plus. All Rights Reserved.</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 text-end">
+                            <div class="footer-copyright">
+                                <a href="terms.html" class="mr">Terms & Conditions</a>
+                                <a href="privacy-policy.html">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        
+       <!--<< All JS Plugins >>-->
+       <script src="assets/js/jquery-3.7.1.min.js"></script>
+       <!--<< Gsap Js >>-->
+       <script src="assets/js/gsap.js"></script>
+       <!--<< ScrollSmoother Js >>-->
+       <script src="assets/js/ScrollSmoother.js"></script>
+       <!--<< ScrollToPlugin Js >>-->
+       <script src="assets/js/ScrollToPlugin.js"></script>
+       <!--<< ScrollTrigger Js >>-->
+       <script src="assets/js/ScrollTrigger.js"></script>
+       <!--<< ScrollTrigger Js >>-->
+       <script src="assets/js/split-text.js"></script>
+       <!--<< Bootstrap Js >>-->
+       <script src="assets/js/bootstrap.bundle.min.js"></script>
+       <!--<< Nice Select Js >>-->
+       <script src="assets/js/jquery.nice-select.min.js"></script>
+       <!--<< Waypoints Js >>-->
+       <script src="assets/js/jquery.waypoints.js"></script>
+       <!--<< Counterup Js >>-->
+       <script src="assets/js/jquery.counterup.min.js"></script>
+       <!--<< Swiper Slider Js >>-->
+       <script src="assets/js/swiper-bundle.min.js"></script>
+       <!--<< MeanMenu Js >>-->
+       <script src="assets/js/jquery.meanmenu.min.js"></script>
+       <!--<< Jquery Ui js >>-->
+       <script src="assets/js/jquery-ui.min.js"></script>
+       <!--<< vanilla-tilt Js >>-->
+       <script src="assets/js/tilt.jquery.js"></script>
+       <!--<< Jaralax Js >>-->
+       <script src="assets/js/jarallax.min.js"></script>
+       <!--<< Magnific Popup Js >>-->
+       <script src="assets/js/jquery.magnific-popup.min.js"></script>
+       <!--<< Wow Animation Js >>-->
+       <script src="assets/js/wow.min.js"></script>
+       <!--<< Main.js >>-->
+       <script src="assets/js/main.js"></script>
+    </body>
+
+</html>
